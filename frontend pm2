@@ -1,0 +1,5 @@
+start nexjs app with pm2 
+
+pm2 start npm --src/app/page.tsx websitefrontend -- start
+
+pm2 start npm --name websitefrontend -- start
